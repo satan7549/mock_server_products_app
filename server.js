@@ -10,3 +10,5 @@ server.use("/", router);
 server.listen(PORT, () =>
   console.log(`JSON Server is running on port ${PORT}`)
 );
+
+module.exports = server;
